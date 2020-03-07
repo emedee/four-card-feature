@@ -5,6 +5,7 @@
     }
     .row{
         flex-direction: column !important;
+        width: auto !important;
     }
     .div-desc{
         width: 85%;
@@ -29,8 +30,12 @@
     .reliable{
         width: auto !important;
     }
-    .column{
-        margin-left: -30px !important;
+    .div-supervisor, .div-calculator, .div-karma, .div-team-builder{
+        width: auto !important;
+        align-self: unset !important;
+    }
+    img{
+        margin-left: 200px !important;
     }
 }
 .body{
